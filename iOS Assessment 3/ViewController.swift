@@ -10,7 +10,8 @@ import UIKit
 
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource  {
 
-    @IBOutlet weak var tableView: UITableViewCell!
+
+    @IBOutlet weak var tableView: UITableView!
     
     var people = [Person]()
     
@@ -18,16 +19,18 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         super.viewDidLoad()
         tableView.delegate = self
         tableView.dataSource = self
-        people.append(Person(name: "", favorite:""))
-        people.append(Person(name: "", favorite:""))
-        people.append(Person(name: "", favorite:""))
+        people.append(Person(name: "Bersabeh", favorite:"cooking and play cards"))
+        people.append(Person(name: "Sera", favorite:"Reading books and pray"))
+        people.append(Person(name: "Sol", favorite:"hubg out with frinds"))
+        tableView.reloadData()
         
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
+    }
         func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-            let cell = tableView.dequeueReusableCell(withIdentifier: "personalCell") as! CustomTableViewcell
+            let cell = tableView.dequeueReusableCell(withIdentifier: "personCell") as! CustomTableViewcell
             cell.setupCell(Person:people[indexPath.row])
             return cell
         }
@@ -37,12 +40,12 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         }
         
         func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-            return 80
+            return 90.0
         }
         
         }
     
-    }
+    
 
 
 

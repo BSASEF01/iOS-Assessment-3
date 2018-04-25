@@ -10,13 +10,13 @@ import UIKit
 
 class CustomTableViewcell: UITableViewCell {
     
-    @IBOutlet weak var nameLable: UILabel!
+    @IBOutlet weak var nameLabel: UILabel!
     
-    @IBOutlet weak var favoriteLable: UILabel!
+    @IBOutlet weak var favoriteLabel: UILabel!
     
     func setupCell(Person: Person){
-        nameLable.text = Person.name
-        favoriteLable.text = Person.favorite 
+        nameLabel.text = Person.name
+        favoriteLabel.text = Person.favorite 
         
     }
     
