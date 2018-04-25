@@ -13,6 +13,8 @@
 		270601F0209102D30032D7DE /* iOS_Assessment_3.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 270601EE209102D30032D7DE /* iOS_Assessment_3.xcdatamodeld */; };
 		270601F2209102D40032D7DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 270601F1209102D40032D7DE /* Assets.xcassets */; };
 		270601F5209102D40032D7DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 270601F3209102D40032D7DE /* LaunchScreen.storyboard */; };
+		270601FD209104990032D7DE /* personclass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270601FC209104990032D7DE /* personclass.swift */; };
+		270601FF209108FF0032D7DE /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270601FE209108FF0032D7DE /* CustomTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		270601F1209102D40032D7DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		270601F4209102D40032D7DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		270601F6209102D40032D7DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		270601FC209104990032D7DE /* personclass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = personclass.swift; sourceTree = "<group>"; };
+		270601FE209108FF0032D7DE /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 			children = (
 				270601E7209102D30032D7DE /* AppDelegate.swift */,
 				270601E9209102D30032D7DE /* ViewController.swift */,
+				270601FC209104990032D7DE /* personclass.swift */,
+				270601FE209108FF0032D7DE /* CustomTableViewCell.swift */,
 				270601EB209102D30032D7DE /* Main.storyboard */,
 				270601F1209102D40032D7DE /* Assets.xcassets */,
 				270601F3209102D40032D7DE /* LaunchScreen.storyboard */,
@@ -139,6 +145,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				270601EA209102D30032D7DE /* ViewController.swift in Sources */,
+				270601FF209108FF0032D7DE /* CustomTableViewCell.swift in Sources */,
+				270601FD209104990032D7DE /* personclass.swift in Sources */,
 				270601F0209102D30032D7DE /* iOS_Assessment_3.xcdatamodeld in Sources */,
 				270601E8209102D30032D7DE /* AppDelegate.swift in Sources */,
 			);
